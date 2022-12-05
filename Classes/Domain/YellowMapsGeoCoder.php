@@ -14,7 +14,7 @@ use Neos\Flow\Annotations as Flow;
 use Neos\Flow\I18n\Service as LocalizationService;
 
 #[Flow\Scope('singleton')]
-class YellowMapsGeoCoder implements GeoCoderInterface
+final class YellowMapsGeoCoder implements GeoCoderInterface
 {
     public function __construct(
         private readonly LocalizationService $localizationService,
