@@ -1,0 +1,5 @@
+Nezaniel\GeographicLibrary\Domain\Repository\GeoCoderInterface:
+  className: 'Sitegeist\GeographicLibrary\YellowMapsAdapter\Domain\YellowMapsGeoCoder'
+  arguments:
+    2:
+      setting: Sitegeist.GeographicLibrary.YellowMapsAdapter.api.key

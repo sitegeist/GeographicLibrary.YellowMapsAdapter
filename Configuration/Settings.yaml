@@ -1,0 +1,5 @@
+Sitegeist:
+  GeographicLibrary:
+    YellowMapsAdapter:
+      api:
+        key: ''

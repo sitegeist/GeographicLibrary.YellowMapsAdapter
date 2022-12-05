@@ -1,0 +1,18 @@
+{
+    "name": "sitegeist/geographiclibrary-yellowmapsadapter",
+    "type": "neos-plugin",
+    "description": "Yellow Maps adapter for the Flow based geographic library",
+    "require": {
+        "nezaniel/geographiclibrary": "4.0.x-dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sitegeist\\GeographicLibrary\\YellowMapsAdapter\\": "Classes"
+        }
+    },
+    "extra": {
+        "neos": {
+            "package-key": "Sitegeist.GeographicLibrary.YellowMapsAdapter"
+        }
+    }
+}
